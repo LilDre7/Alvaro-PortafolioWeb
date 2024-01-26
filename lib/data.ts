@@ -40,7 +40,7 @@ export const experiencesData = [
     description:
       "Estudié alrededor de 9 meses en un bootcamp de programación interesante.",
     icon: React.createElement(LuGraduationCap),
-    date: "2024",
+    date: "2023",
   },
   {
     title: "Estudiante de Platzi, Youtube, Open Bootcamp, freeCodeCamp",
@@ -93,6 +93,8 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Native",
+  "Expo",
   "Astro",
   "Node.js",
   "Git",

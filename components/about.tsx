@@ -19,7 +19,9 @@ export default function About() {
     >
       <SectionHeading>Sobre mi</SectionHeading>
       <p className="mb-3">
-        Soy un apasionado desarrollador de software con sede en Costa Rica, especializado en desarrollo web <span className="font-medium">Full-Stack</span>. En mi portafolio, encontrarás ejemplos de mis habilidades y experiencia como desarrollador. Siempre estoy en busca de formas de mejorar y aprender nuevas tecnologías en mi tiempo libre. Además de programar, disfruto del surf y el skate, así como estar en contacto con la naturaleza y la adrenalina de los deportes extremos. La música lofi es mi compañera constante mientras trabajo en mis proyectos. ¡Gracias por visitar mi portafolio, espero que lo disfrutes tanto como yo disfruté creándolo!
+        Soy un apasionado desarrollador de software con base en Costa Rica, especializado en el ámbito <span className="font-bold">Full-Stack del desarrollo web & móvil.</span>  Mi portafolio exhibe ejemplos representativos de mis competencias y experiencia en este campo. Constantemente busco oportunidades para perfeccionarme y adquirir conocimientos sobre las últimas tecnologías durante mi tiempo libre. Además de la programación, dedico tiempo a la investigación tecnológica, a actividades físicas en el GYM y a experiencias en la naturaleza y deportes extremos para mantener un equilibrio. La música lofi es mi constante acompañante durante el desarrollo de mis aplicaciones.
+
+        Agradezco tu visita a mi portafolio y confío en que encuentres tanto placer explorándolo como yo tuve al desarrollarlo.
       </p>
     </motion.section>
   );
