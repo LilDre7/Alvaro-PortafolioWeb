@@ -67,6 +67,7 @@ export const projectsData = [
       "Aplicación web diseñada para brindarte información meteorológica precisa y fácil de entender. Con una interfaz intuitiva y atractiva.",
     tags: ["React", "API", "Tailwind", "Axios"],
     imageUrl: weatherAppImg,
+    href: "https://cualestuclima.netlify.app/"
   },
   {
     title: "AgilityMatch",
@@ -74,6 +75,7 @@ export const projectsData = [
       "AgilityMatch es una emocionante aplicación que pondrá a prueba y mejorará tu agilidad mental a través de un divertido juego de cartas.",
     tags: ["React", "Tailwind", "CSS" , "LocalStorage"],
     imageUrl: gameCart,
+    href: "https://lildreegame.netlify.app/"
   },
   {
     title: "Ecommerce tecnoPhone",
@@ -81,6 +83,7 @@ export const projectsData = [
       "Un E-commerce Desarrollado en Aproximadamente 48 Horas con Funcionalidades de Inicio de Sesión, Compras y Carrito. Aquí Exhibo Mi Destreza en el Front-End.",
     tags: ["React", "API", "REDUX", "Tailwind", "REACT TOOKITS"],
     imageUrl: ecommerceImg,
+    href: "https://lilecommerce.netlify.app/"
   },
 ] as const;
 
