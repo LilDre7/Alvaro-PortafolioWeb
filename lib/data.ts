@@ -1,7 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import { FaAddressBook } from "react-icons/fa";
 import ecommerceImg from "@/public/ecommerce.jpg";
 import weatherAppImg from "@/public/weather.jpg";
 import gameCart from "@/public/gamecart.jpg";
@@ -47,7 +47,7 @@ export const experiencesData = [
     location: "Costa Rica, Latam ",
     description:
       "Estudié alrededor de 9 meses de manera autodidacta con cursos de programación, videos, proyectos, etc. Esto me añadió mucho valor para empezar con mis proyectos FreeLancer.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaAddressBook),
     date: "2022 - 2023",
   },
   {
@@ -55,7 +55,7 @@ export const experiencesData = [
     location: "Freelance",
     description:
       "Realice un proyecto freelance en el que trabajaba con React, Next.js, Tailwind, Framer Motion y Prisma. El proyecto fue realizado en un tiempo de 4 días. El proyecto fue realizado por una empresa de bienes raíces.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },
 ] as const;
