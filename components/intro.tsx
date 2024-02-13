@@ -67,7 +67,7 @@ export default function Intro() {
         <span className="font-bold">desarrollador full-stack</span> con{" "}
         <span className="font-bold">1 año</span> de experiencia. Disfruto construyendo{" "}
         <span className="italic">sitios y aplicaciones</span>. Mi enfoque es en{" "}
-        <span className="underline">ReactJS & ReactNative, Astro y ExpressJS</span>.
+        <span className="underline">ReactJS & ReactNative, Astro 🚀 y ExpressJS</span>.
       </motion.h1>
 
       <motion.div
