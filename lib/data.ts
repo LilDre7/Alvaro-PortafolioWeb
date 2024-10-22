@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaAddressBook } from "react-icons/fa";
-import ecommerceImg from "@/public/alvaro3d.jpg";
-import weatherAppImg from "@/public/alvaro3d.jpg";
-import gameCart from "@/public/alvaro3d.jpg";
+// import ecommerceImg from "";
+// import weatherAppImg from "";
+// import gameCart from "";
 
 export const links = [
   {
@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Graduado Bootcamp Academlo",
     location: "Mexico, Cuidad de Mexico",
     description:
-      "Estudié alrededor de 9 meses en un bootcamp de programación interesante.",
+      "Estudié alrededor de 9 meses en un bootcamp de programación para ser desarrollador Web full-stack",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
@@ -54,9 +54,9 @@ export const experiencesData = [
     title: "Proyecto freelance",
     location: "Freelance",
     description:
-      "Realice un proyecto freelance en el que trabajaba con React, Next.js, Tailwind, Framer Motion y Prisma. El proyecto fue realizado en un tiempo de 4 días. El proyecto fue realizado por una empresa de bienes raíces.",
+      "Realice un proyecto freelance en el que trabajaba con React, Next.js, Tailwind, Framer Motion y Prisma. El proyecto fue realizado por una empresa de bienes raíces.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - present",
+    date: "2023",
   },
 ] as const;
 
@@ -66,7 +66,7 @@ export const projectsData = [
     description:
       "Aplicación web diseñada para brindarte información meteorológica precisa y fácil de entender. Con una interfaz intuitiva y atractiva.",
     tags: ["React", "API", "Tailwind", "Axios"],
-    imageUrl: weatherAppImg,
+    imageUrl: "",
     href: "https://cualestuclima.netlify.app/"
   },
   {
@@ -74,7 +74,7 @@ export const projectsData = [
     description:
       "AgilityMatch es una emocionante aplicación que pondrá a prueba y mejorará tu agilidad mental a través de un divertido juego de cartas.",
     tags: ["React", "Tailwind", "CSS" , "LocalStorage"],
-    imageUrl: gameCart,
+    imageUrl: "",
     href: "https://lildreegame.netlify.app/"
   },
   {
@@ -82,7 +82,7 @@ export const projectsData = [
     description:
       "Un E-commerce Desarrollado en Aproximadamente 48 Horas con Funcionalidades de Inicio de Sesión, Compras y Carrito. Aquí Exhibo Mi Destreza en el Front-End.",
     tags: ["React", "API", "REDUX", "Tailwind", "REACT TOOKITS"],
-    imageUrl: ecommerceImg,
+    imageUrl: "",
     href: "https://lilecommerce.netlify.app/"
   },
 ] as const;
