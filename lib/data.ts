@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaAddressBook } from "react-icons/fa";
-import aifit from "@/public/aifit.png"
+import aifit from "@/public/aifit.jpg"
 // import ecommerceImg from "";
 // import gameCart from "";
 
