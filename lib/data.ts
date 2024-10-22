@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaAddressBook } from "react-icons/fa";
+import aifit from "@/public/aifit.png"
 // import ecommerceImg from "";
-// import weatherAppImg from "";
 // import gameCart from "";
 
 export const links = [
@@ -62,29 +62,29 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Weather Apps",
+    title: "AI FIT WORKOUT",
     description:
-      "Aplicación web diseñada para brindarte información meteorológica precisa y fácil de entender. Con una interfaz intuitiva y atractiva.",
-    tags: ["React", "API", "Tailwind", "Axios"],
-    imageUrl: "",
-    href: "https://cualestuclima.netlify.app/"
+      "Aplicación web diseñada para brindarte información y rutinas de entrenamiento. Con una interfaz intuitiva y atractiva.",
+    tags: ["React", "API", "Tailwind", "Axios, AI"],
+    imageUrl: aifit,
+    href: "https://aifitnow.netlify.app/"
   },
-  {
-    title: "AgilityMatch",
-    description:
-      "AgilityMatch es una emocionante aplicación que pondrá a prueba y mejorará tu agilidad mental a través de un divertido juego de cartas.",
-    tags: ["React", "Tailwind", "CSS" , "LocalStorage"],
-    imageUrl: "",
-    href: "https://lildreegame.netlify.app/"
-  },
-  {
-    title: "Ecommerce tecnoPhone",
-    description:
-      "Un E-commerce Desarrollado en Aproximadamente 48 Horas con Funcionalidades de Inicio de Sesión, Compras y Carrito. Aquí Exhibo Mi Destreza en el Front-End.",
-    tags: ["React", "API", "REDUX", "Tailwind", "REACT TOOKITS"],
-    imageUrl: "",
-    href: "https://lilecommerce.netlify.app/"
-  },
+  // {
+  //   title: "AgilityMatch",
+  //   description:
+  //     "AgilityMatch es una emocionante aplicación que pondrá a prueba y mejorará tu agilidad mental a través de un divertido juego de cartas.",
+  //   tags: ["React", "Tailwind", "CSS" , "LocalStorage"],
+  //   imageUrl: "",
+  //   href: "https://lildreegame.netlify.app/"
+  // },
+  // {
+  //   title: "Ecommerce tecnoPhone",
+  //   description:
+  //     "Un E-commerce Desarrollado en Aproximadamente 48 Horas con Funcionalidades de Inicio de Sesión, Compras y Carrito. Aquí Exhibo Mi Destreza en el Front-End.",
+  //   tags: ["React", "API", "REDUX", "Tailwind", "REACT TOOKITS"],
+  //   imageUrl: "",
+  //   href: "https://lilecommerce.netlify.app/"
+  // },
 ] as const;
 
 export const skillsData = [
