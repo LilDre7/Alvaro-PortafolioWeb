@@ -32,7 +32,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/alvaromemoji.png"
+              src="/alvaroMemoji.png"
               alt="Alvaro portrait"
               width="136"
               height="136"
