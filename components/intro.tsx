@@ -32,18 +32,18 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/alvaro3d.jpg"
+              src="/alvaromemoji.png"
               alt="Alvaro portrait"
-              width="192"
-              height="192"
+              width="136"
+              height="136"
               quality="95"
               // priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className=""
             />
           </motion.div>
 
           <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
+            className="absolute bottom-0 right-2 text-4xl "
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -59,15 +59,13 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-6 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hola, soy Álvaro.</span> Soy un{" "}
-        <span className="font-bold">desarrollador full-stack</span> con{" "}
-        <span className="font-bold">1 año</span> de experiencia. Disfruto construyendo{" "}
-        <span className="italic">sitios y aplicaciones</span>. Mi enfoque es en{" "}
-        <span className="underline">ReactJS & ReactNative, Astro 🚀 y ExpressJS</span>.
+        <span className="font-bold">Hola, soy Álvaro.</span>
+        <span className="font-bold"> Un desarrollador Web & Móvil de  Costa Rica.</span>
+        <span className=""> Especializado en solucionar problemas únicos.</span>
       </motion.h1>
 
       <motion.div
@@ -92,7 +90,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV-DEV-ALVAROABURTO.pdf"
+          href="/CV.pdf"
           download
         >
           Download CV

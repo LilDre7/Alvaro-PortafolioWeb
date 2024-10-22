@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaAddressBook } from "react-icons/fa";
-import ecommerceImg from "@/public/ecommerce.jpg";
-import weatherAppImg from "@/public/weather.jpg";
-import gameCart from "@/public/gamecart.jpg";
+import ecommerceImg from "@/public/alvaro3d.jpg";
+import weatherAppImg from "@/public/alvaro3d.jpg";
+import gameCart from "@/public/alvaro3d.jpg";
 
 export const links = [
   {
