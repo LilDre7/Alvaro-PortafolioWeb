@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import { FaAddressBook } from "react-icons/fa";
-import aifit from "@/public/aifit.jpg"
-// import ecommerceImg from "";
+import aifit from "@/public/aifit.jpg";
+import shorlink from "@/public/shortlink.jpg";
 // import gameCart from "";
 
 export const links = [
@@ -65,18 +65,18 @@ export const projectsData = [
     title: "AI FIT WORKOUT",
     description:
       "Aplicación web diseñada para brindarte información y rutinas de entrenamiento. Con una interfaz intuitiva y atractiva.",
-    tags: ["React", "API", "Tailwind", "Axios, AI"],
+    tags: ["Full-Stack", "React", "API", "Tailwind", "Axios, AI"],
     imageUrl: aifit,
-    href: "https://aifitnow.netlify.app/"
+    href: "https://aifitnow.netlify.app/",
   },
-  // {
-  //   title: "AgilityMatch",
-  //   description:
-  //     "AgilityMatch es una emocionante aplicación que pondrá a prueba y mejorará tu agilidad mental a través de un divertido juego de cartas.",
-  //   tags: ["React", "Tailwind", "CSS" , "LocalStorage"],
-  //   imageUrl: "",
-  //   href: "https://lildreegame.netlify.app/"
-  // },
+  {
+    title: "SHORT LINK APP",
+    description:
+      "ShortURL es una herramienta gratuita para acortar URL y generar enlaces cortos el acortador de URL permite crear un enlace acortado que facilita compartirlo.",
+    tags: ["Full-Stack","Next.js","Prisma", "postgress",],
+    imageUrl: shorlink,
+    href: "https://getyourlink.vercel.app/",
+  },
   // {
   //   title: "Ecommerce tecnoPhone",
   //   description:

@@ -4,6 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import TextRevealByWord from "./ui/text-reveal";
 
 export default function About() {
   const { ref } = useSectionInView("Sobre");
@@ -18,11 +19,42 @@ export default function About() {
       id="about"
     >
       <SectionHeading>Sobre mi</SectionHeading>
-      <p className="mb-3">
-        Soy un apasionado desarrollador de software con base en Costa Rica, especializado en el ámbito <span className="font-bold">Full-Stack del desarrollo web & móvil.</span>  Mi portafolio exhibe ejemplos representativos de mis competencias y experiencia en este campo. Constantemente busco oportunidades para perfeccionarme y adquirir conocimientos sobre las últimas tecnologías durante mi tiempo libre. Además de la programación, dedico tiempo a la investigación tecnológica, a actividades físicas en el GYM y a experiencias en la naturaleza y deportes extremos para mantener un equilibrio. La música lofi es mi constante acompañante durante el desarrollo de mis aplicaciones.
+      <div className="space-y-4 text-gray-900 dark:text-white">
+        <p className="font-semibold font-mono">
+          Hola, soy Álvaro aunque algunos me conocen como
+          <span className=""> Lil Dree</span>
+          <span className="text-violet-600 dark:text-violet-300 font-semibold ml-1">
+            (sí, suena más a rapero que a programador, lo sé)
+          </span>
+          . Mi historia con la programación comenzó el día que descubrí que
+          <span className="text-violet-600 dark:text-violet-300 font-semibold"> HTML no era una enfermedad </span>. Desde
+          entonces, me paso los días hablando con JavaScript y tratando de domar
+          a React, Node.js y sus amigos.
+        </p>
 
-        Agradezco tu visita a mi portafolio y confío en que encuentres tanto placer explorándolo como yo tuve al desarrollarlo.
-      </p>
+        <p className="font-semibold font-mono">
+          Uno de mis
+          <span className="underline"> "superpoderes" </span>
+          es hacer funcionar el código a las
+          <span className="font-bold"> 3 a.m.</span>, después de
+          varios intentos fallidos y una buena dosis de cafeína ☕. He trabajado
+          en proyectos que, al menos,
+          <span className="underline"> no han explotado</span>... todavía. Pero
+          hablando en serio, he desarrollado apps que han ayudado a mejorar la
+          eficiencia de pequeñas empresas, y eso me llena de orgullo.
+        </p>
+
+        <p className="font-semibold font-mono">
+          Mi misión en el mundo tech es
+          <span className="ml-1 text-violet-600 dark:text-violet-300 font-semibold">
+            crear cosas geniales sin perder la cabeza
+          </span>
+          . Me apasiona aprender, mejorar y, si se puede, reírme en el proceso.
+          Así que, si buscas a alguien que no solo programe sino que también se
+          ría de sus propios errores (¡porque, seamos honestos, no se pueden
+          evitar!), aquí estoy.
+        </p>
+      </div>
     </motion.section>
   );
 }
