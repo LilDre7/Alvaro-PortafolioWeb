@@ -95,7 +95,7 @@ export const projectsData = [
     href: "https://gemini.vercel.ai/",
   },
   {
-    title: "Gemini Clone",
+    title: "Sass UI",
     description:
       "Saas UI es una biblioteca de componentes React que no interfiere con tu proceso y te ayuda a crear productos SaaS intuitivos con rapidez.",
     tags: ["NextJS", "chakra", "UI", "Tailwind", "SAAS"],
