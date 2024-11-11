@@ -20,39 +20,18 @@ export default function About() {
     >
       <SectionHeading>Sobre mi</SectionHeading>
       <div className="space-y-4 text-gray-900 dark:text-white">
-        <p className="font-semibold font-mono">
-          Hola, soy Álvaro aunque algunos me conocen como
-          <span className=""> Lil Dree</span>
-          <span className="text-violet-600 dark:text-violet-300 font-semibold ml-1">
-            (sí, suena más a rapero que a programador, lo sé)
-          </span>
-          . Mi historia con la programación comenzó el día que descubrí que
-          <span className="text-violet-600 dark:text-violet-300 font-semibold"> HTML no era una enfermedad </span>. Desde
+        <p className="about">
+          Hola 🙋🏽 , soy Álvaro aunque algunos me conocen como Lil Dree (sí, suena más
+          a rapero que a programador, lo sé). Mi historia con la programación
+          comenzó el día que descubrí que HTML no era una enfermedad. Desde
           entonces, me paso los días hablando con JavaScript y tratando de domar
-          a React, Node.js y sus amigos.
-        </p>
-
-        <p className="font-semibold font-mono">
-          Uno de mis
-          <span className="underline"> "superpoderes" </span>
-          es hacer funcionar el código a las
-          <span className="font-bold"> 3 a.m.</span>, después de
-          varios intentos fallidos y una buena dosis de cafeína ☕. He trabajado
-          en proyectos que, al menos,
-          <span className="underline"> no han explotado</span>... todavía. Pero
-          hablando en serio, he desarrollado apps que han ayudado a mejorar la
-          eficiencia de pequeñas empresas, y eso me llena de orgullo.
-        </p>
-
-        <p className="font-semibold font-mono">
-          Mi misión en el mundo tech es
-          <span className="ml-1 text-violet-600 dark:text-violet-300 font-semibold">
-            crear cosas geniales sin perder la cabeza
-          </span>
-          . Me apasiona aprender, mejorar y, si se puede, reírme en el proceso.
-          Así que, si buscas a alguien que no solo programe sino que también se
-          ría de sus propios errores (¡porque, seamos honestos, no se pueden
-          evitar!), aquí estoy.
+          a React, Node.js y sus amigos. Uno de mis "superpoderes" es hacer
+          funcionar el código a las 3 a.m., después de varios intentos fallidos
+          y una buena dosis de cafeína ☕. He trabajado en proyectos que, al
+          menos, no han explotado... todavía. Pero hablando en serio, he
+          desarrollado apps que han ayudado a mejorar la eficiencia de pequeñas
+          empresas, y eso me llena de orgullo. Mi misión en el mundo tech
+          es crear cosas geniales sin perder la cabeza.
         </p>
       </div>
     </motion.section>

@@ -4,7 +4,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import { FaAddressBook } from "react-icons/fa";
 import aifit from "@/public/aifit.jpg";
 import shorlink from "@/public/shortlink.jpg";
-import ai from "@/public/gemini.webp";
+// import ai from "@/public/gemini.webp";
 import sass from "@/public/saas.webp";
 
 export const links = [
@@ -86,14 +86,14 @@ export const projectsData = [
     imageUrl: shorlink,
     href: "https://getyourlink.vercel.app/",
   },
-  {
-    title: "Gemini Clone",
-    description:
-      "Se trata del  modelo de lenguaje más avanzado de Google hasta el momento y el proyecto de investigación más grande en la historia de la compañía.",
-    tags: ["NextJS", "API", "META", "Tailwind", "SKD"],
-    imageUrl: ai,
-    href: "https://gemini.vercel.ai/",
-  },
+  // {
+  //   title: "Gemini Clone",
+  //   description:
+  //     "Se trata del  modelo de lenguaje más avanzado de Google hasta el momento y el proyecto de investigación más grande en la historia de la compañía.",
+  //   tags: ["NextJS", "API", "META", "Tailwind", "SKD"],
+  //   imageUrl: ai,
+  //   href: "https://gemini.vercel.ai/",
+  // },
   {
     title: "Sass UI",
     description:
@@ -113,17 +113,17 @@ export const skillsData = [
   "React Native",
   "Expo",
   "Astro",
-  "Node.js",
+  "NodeJs",
   "Git",
   "Tailwind",
   "Docker",
-  "Express",
+  "ExpressJs",
   "Redux",
   "Firebase",
   "PostgreSQL",
-  "Python",
   "VueJs",
   "Framer Motion",
   "Wordpress",
-  "NextJs"
+  "NextJs",
+  "Deno"
 ] as const;

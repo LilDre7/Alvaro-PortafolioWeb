@@ -65,10 +65,10 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <TypingAnimation
-          className="text-4xl font-bold text-black dark:text-white"
+          className="aboutHero text-4xl font-bold text-black dark:text-white"
           text="Hola, soy Álvaro. Un desarrollador Web & Móvil de Costa Rica."
         />
-        <span className=""> Especializado en solucionar problemas únicos.</span>
+        <span className="aboutHeroSpan"> Especializado en solucionar problemas únicos.</span>
       </motion.h1>
 
       <motion.div
