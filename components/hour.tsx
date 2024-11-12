@@ -33,7 +33,7 @@ const Hour = () => {
   }, []);
 
   return (
-    <section className="fixed bottom-5 left-12 right-0 w-[5rem] h-[3rem] flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all">
+    <section className="fixed bottom-5 left-5 sm:left-12 right-0 w-[5rem] h-[3rem] flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all">
       <div className="flex items-center justify-center gap-2">
         <span>
           <BsGlobe />
