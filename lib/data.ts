@@ -4,8 +4,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import { FaAddressBook } from "react-icons/fa";
 import aifit from "@/public/aifit.jpg";
 import shorlink from "@/public/shortlink.jpg";
-// import ai from "@/public/gemini.webp";
-import sass from "@/public/saas.webp";
+import star from "@/public/star.jpg";
 
 export const links = [
   {
@@ -71,6 +70,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "SHORT LINK APP",
+    description:
+      "ShortURL es una herramienta gratuita para acortar URL y generar enlaces cortos el acortador de URL permite crear un enlace acortado que facilita compartirlo.",
+    tags: ["Full-Stack", "Next.js", "Prisma", "postgress"],
+    imageUrl: shorlink,
+    href: "https://getyourlink.vercel.app/",
+  },
+  {
     title: "AI FIT WORKOUT",
     description:
       "Aplicación web diseñada para brindarte información y rutinas de entrenamiento. Con una interfaz intuitiva y atractiva.",
@@ -79,28 +86,12 @@ export const projectsData = [
     href: "https://aifitnow.netlify.app/",
   },
   {
-    title: "SHORT LINK APP",
+    title: "STAR WARS APP",
     description:
-      "ShortURL es una herramienta gratuita para acortar URL y generar enlaces cortos el acortador de URL permite crear un enlace acortado que facilita compartirlo.",
-    tags: ["Full-Stack", "Next.js", "Prisma", "postgress"],
-    imageUrl: shorlink,
-    href: "https://getyourlink.vercel.app/",
-  },
-  // {
-  //   title: "Gemini Clone",
-  //   description:
-  //     "Se trata del  modelo de lenguaje más avanzado de Google hasta el momento y el proyecto de investigación más grande en la historia de la compañía.",
-  //   tags: ["NextJS", "API", "META", "Tailwind", "SKD"],
-  //   imageUrl: ai,
-  //   href: "https://gemini.vercel.ai/",
-  // },
-  {
-    title: "Sass UI",
-    description:
-      "Saas UI es una biblioteca de componentes React que no interfiere con tu proceso y te ayuda a crear productos SaaS intuitivos con rapidez.",
-    tags: ["NextJS", "chakra", "UI", "Tailwind", "SAAS"],
-    imageUrl: sass,
-    href: "https://saas-ui-nextjs-landing-page.netlify.app/",
+      "Aplicación web para ver información de las peliculas de la saga de Star Wars. Con una interfaz intuitiva y atractiva.",
+    tags: ["FRONT-END", "React.JS", "API", "Tailwind", "Axios"],
+    imageUrl: star,
+    href: "https://stars-wars-bice.vercel.app/",
   },
 ] as const;
 
@@ -125,5 +116,5 @@ export const skillsData = [
   "Framer Motion",
   "Wordpress",
   "NextJs",
-  "Deno"
+  "Deno",
 ] as const;
