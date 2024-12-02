@@ -1,7 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { LuGraduationCap } from "react-icons/lu";
-import { FaAddressBook } from "react-icons/fa";
 import aifit from "@/public/aifit.jpg";
 import shorlink from "@/public/shortlink.jpg";
 import star from "@/public/star.jpg";
@@ -35,36 +33,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Estudiante de Platzi, Youtube, Open Bootcamp, freeCodeCamp",
-    location: "Costa Rica, Latam ",
+    title: "Desarrollador Freelance",
+    location: "Costa Rica, Remote",
     description:
-      "Estudié alrededor de 9 meses de manera autodidacta con cursos de programación, videos, proyectos, etc. Esto me añadió mucho valor para empezar con mis proyectos FreeLancer.",
-    icon: React.createElement(FaAddressBook),
-    date: "2022 - 2024",
-  },
-  {
-    title: "Desarrollo Web Full-Stack y Ciencias de Computación",
-    location: "Tecnico superior",
-    description:
-      "Mi conocimiento en ciencias de la computación también me permite resolver problemas de manera efectiva, trabajar con algoritmos y estructuras de datos eficientes y comprender cómo optimizar los sistemas.",
+      "Diseñé y desarrollé soluciones personalizadas para clientes, integrando Front-end & Back-end Web. Colaboré directamente con clientes para identificar necesidades y entregar soluciones a medida.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022",
+    date: "2024 - Actual",
   },
   {
-    title: "Graduado Bootcamp(Desarrollo de Software) Academlo",
-    location: "Mexico, Cuidad de Mexico",
+    title: "Asistente de atencion al cliente & Desarrollador",
+    location: "Costa Rica, Guanacaste",
     description:
-      "Estudié alrededor de 9 meses en un bootcamp de programación para ser desarrollador Web full-stack",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023",
-  },
-  {
-    title: "Proyecto freelance",
-    location: "Freelance",
-    description:
-      "Realice un proyecto freelance en el que trabajaba con React, Next.js, Tailwind, Framer Motion y Prisma. El proyecto fue realizado por una empresa de bienes raíces.",
+      "Gestioné la base de datos de clientes, realizando actualizaciones y manteniendo registros precisos, cierre de caja, lo que me permitió desarrollar una comprensión práctica de la gestión y organización de datos.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023",
+    date: "2024 - Actual",
+  },
+  {
+    title: "Instructor y Asesor Independiente",
+    location: "Costa Rica, Remote",
+    description:
+      "Ofrecí asesoramiento experto en desarrollo web, orientado a clientes en la creación y mantenimiento de sitios web, lo que me permitió perfeccionar mis conocimientos técnicos y habilidades de comunicación.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2023",
   },
 ] as const;
 
