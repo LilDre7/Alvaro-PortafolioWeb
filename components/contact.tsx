@@ -29,14 +29,16 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contactame</SectionHeading>
+      <SectionHeading>
+        <span className="aboutHero">Contactame</span>
+      </SectionHeading>
 
-      <p className="text-gray-700 -mt-6 gap-2 dark:text-white/80">
+      <p className="text-gray-700 -mt-6 gap-2 dark:text-white/80 pt-2">
         Puedes contactme atraves de
         <a className="underline p-1" href="mailto:alvaroaburto71@gmail.com">
           alvaroaburto71@gmail.com
         </a>
-       un placer.
+        un placer.
       </p>
 
       <form

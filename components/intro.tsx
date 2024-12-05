@@ -11,6 +11,8 @@ import { FaAddressCard } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import TypingAnimation from "./ui/typing-animation";
+import { Spoiler } from "spoiled";
+import WordRotate from "./ui/word-rotate";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -54,7 +56,7 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            👋🏾
+            👊🏽
           </motion.span>
         </div>
       </div>
@@ -65,10 +67,13 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <TypingAnimation
-          className="aboutHero text-4xl font-bold text-black dark:text-white"
-          text="Hola, soy Álvaro. Un desarrollador Web & Móvil de Costa Rica."
+          className="aboutHero text-3xl font-semibold text-black dark:text-gray-300"
+          text="Hola, soy Álvaro. Un dev Web & Móvil."
         />
-        <span className="aboutHeroSpan"> Especializado en solucionar problemas únicos.</span>
+        <WordRotate
+          className="aboutHero text-4xl font-bold text-black dark:text-white text-ellipsis"
+          words={["DEVELOPER", "CREATIVO", "MODERNO" , "APASIONADO", ]}
+        />
       </motion.h1>
 
       <motion.div

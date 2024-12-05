@@ -1,7 +1,8 @@
-"use client"
+"use client";
 
 import { useState, useEffect } from "react";
 import { BsGlobe } from "react-icons/bs";
+import WordRotate from "./ui/word-rotate";
 
 const Hour = () => {
   const [hours, setHours] = useState("00");

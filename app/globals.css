@@ -3,6 +3,7 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
 html {
   --line-color: #e5e7eb;
@@ -22,8 +23,9 @@ html.dark {
 }
 
 .aboutHero {
-  font-weight: 700;
-  font-family: 'Supreme', sans-serif;
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .aboutHeroSpan {
