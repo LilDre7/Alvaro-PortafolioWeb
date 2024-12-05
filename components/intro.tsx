@@ -69,6 +69,7 @@ export default function Intro() {
         <TypingAnimation
           className="aboutHero text-3xl font-semibold text-black dark:text-gray-300"
           text="Hola, soy Álvaro. Un dev Web & Móvil."
+          // aqui hay un texto
         />
         <WordRotate
           className="aboutHero text-4xl font-bold text-black dark:text-white text-ellipsis"
