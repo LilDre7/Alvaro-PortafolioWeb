@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import Header from "@/components/header";
 import "./globals.css";
 import { Inter } from "next/font/google";
@@ -27,8 +28,13 @@ export default function RootLayout({
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
         <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"
