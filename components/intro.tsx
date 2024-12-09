@@ -40,7 +40,6 @@ export default function Intro() {
               width="136"
               height="136"
               quality="95"
-              // priority={true}
               className=""
             />
           </motion.div>
@@ -69,11 +68,11 @@ export default function Intro() {
         <TypingAnimation
           className="aboutHero text-3xl font-semibold text-black dark:text-gray-300"
           text="Hola, soy Álvaro. Un dev Web & Móvil."
-          // aqui hay un texto
+        // aqui hay un texto
         />
         <WordRotate
           className="aboutHero text-4xl font-bold text-black dark:text-white text-ellipsis"
-          words={["DEVELOPER", "CREATIVO", "MODERNO" , "APASIONADO", ]}
+          words={["CREATIVO", "APASIONADO", "INNOVADOR", "AMIGABLE"]}
         />
       </motion.h1>
 
